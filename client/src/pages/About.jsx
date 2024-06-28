@@ -1,15 +1,27 @@
-
-import React from 'react'
+import React from 'react';
 
 export default function About() {
   return (
-    <div className='py-20 px-4 max-w-6xl mx-auto'>
-      <h1 className='text-3xl font-bold mb-4 text-slate-800'>About House Heaven</h1>
-      <p className='mb-4 text-slate-700'>Sahand Estate is a leading real estate agency that specializes in helping clients buy, sell, and rent properties in the most desirable neighborhoods. Our team of experienced agents is dedicated to providing exceptional service and making the buying and selling process as smooth as possible.</p>
-      <p className='mb-4 text-slate-700'>
-      Our mission is to help our clients achieve their real estate goals by providing expert advice, personalized service, and a deep understanding of the local market. Whether you are looking to buy, sell, or rent a property, we are here to help you every step of the way.
-      </p>
-      <p className='mb-4 text-slate-700'>Our team of agents has a wealth of experience and knowledge in the real estate industry, and we are committed to providing the highest level of service to our clients. We believe that buying or selling a property should be an exciting and rewarding experience, and we are dedicated to making that a reality for each and every one of our clients.</p>
+    <div className="flex flex-col min-h-screen bg-gray-200">
+      <div className="flex-grow py-20 px-4 max-w-6xl mx-auto">
+        <h1 className="text-4xl font-extrabold mb-8 text-blue-900">About Home Heaven</h1>
+        <div className="space-y-6 text-lg text-gray-800">
+          <p>
+            Welcome to Home Heaven, your trusted partner in real estate. We specialize in connecting buyers and sellers, offering a wide range of properties in the most desirable neighborhoods.
+          </p>
+          <p>
+            At Home Heaven, we understand that buying or selling a home is more than just a transaction; it's about finding the perfect place to live and creating lasting memories. Our experienced team of agents is dedicated to providing personalized service, expert advice, and a deep understanding of the local market to help you achieve your real estate goals.
+          </p>
+          <p>
+            Whether you're looking for a cozy apartment, a spacious family home, or an investment property, Home Heaven is here to guide you every step of the way. Our mission is to make your real estate journey as smooth and enjoyable as possible, ensuring that you find a home that fits your lifestyle and budget.
+          </p>
+        </div>
+      </div>
+      <footer className="bg-blue-200 text-center py-4 mt-8">
+        <p className="text-gray-700">
+          &copy; 2024 Home Heaven. Created by Rishabh Gupta and Deepanshi Shukla.
+        </p>
+      </footer>
     </div>
-  )
+  );
 }
