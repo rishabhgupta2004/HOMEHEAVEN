@@ -89,13 +89,28 @@ export default function Home() {
           offerListings.map((listing) => (
             <SwiperSlide>
               <div
-                style={{
-                  background: `url(${listing.imageUrls[0]}) center no-repeat`,
-                  backgroundSize: 'cover',
-                }}
-                className='h-[500px]'
-                key={listing._id}
-              ></div>
+    style={{
+      backgroundImage: `url(${listing.imageUrls[0]})`,
+      backgroundSize: '100% 100%',
+      backgroundPosition: 'center',
+      borderRadius: '10px', // Adds border radius
+      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Adds shadow
+      height: '400px',
+    }}
+    className='h-[500px]'
+  >
+    {/* Overlay with details */}
+    <div className='absolute bottom-0 left-0 right-0 p-4 bg-black bg-opacity-50 text-white'>
+      <h3 className='text-xl font-bold'>{listing.title}</h3>
+      <p className='text-sm'>{listing.description}</p>
+      <Link
+        to={`/listing/${listing._id}`}
+        className='text-blue-500 font-semibold hover:underline mt-2 inline-block'
+      >
+        View Details
+      </Link>
+    </div>
+  </div>
             </SwiperSlide>
           ))}
       </Swiper>
