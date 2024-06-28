@@ -49,25 +49,38 @@ export default function Home() {
   return (
     <div>
       {/* top */}
-      <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto'>
-        <h1 className='text-slate-700 font-bold text-3xl lg:text-6xl'>
-          Find your next <span className='text-slate-500'>perfect</span>
-          <br />
-          place with ease
-        </h1>
-        <div className='text-gray-400 text-xs sm:text-sm'>
-          Sahand Estate is the best place to find your next perfect place to
-          live.
-          <br />
-          We have a wide range of properties for you to choose from.
-        </div>
-        <Link
-          to={'/search'}
-          className='text-xs sm:text-sm text-blue-800 font-bold hover:underline'
-        >
-          Let's get started...
-        </Link>
-      </div>
+      <div
+  className='flex flex-col items-center justify-center gap-6 py-24 px-6 lg:px-0'
+  style={{
+    backgroundImage: `url('https://png.pngtree.com/background/20231024/original/pngtree-contemporary-green-home-decor-featuring-plants-and-furniture-3d-render-picture-image_5701338.jpg')`,
+    backgroundSize: ' 100 % 100 %',
+    backgroundPosition: 'center',
+    
+    color: '#ffffff', 
+    textAlign: 'center', 
+    padding: '5rem',
+    
+  }}
+>
+  <div className='max-w-6xl mx-auto'>
+    <h1 className='text-3xl lg:text-6xl font-bold'>
+      Find Your  <span className='text-blue-500'>Heaven</span>
+      <br />
+      Discover Your Home
+    </h1>
+    <div className='text-lg font-semibold text-slate-200 mt-2'>
+      HomeHeaven is the best place to find your heaven to discover your home.
+      <br />
+      We have a wide range of properties for you to choose from.
+    </div>
+    <Link
+      to={'/search'}
+      className='text-lg text-pink-500 font-bold hover:underline mt-4'
+    >
+      Let's get started...
+    </Link>
+  </div>
+</div>;
 
       {/* swiper */}
       <Swiper navigation>
