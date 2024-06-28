@@ -8,55 +8,53 @@ export default function Header() {
 
   const handleSignInClick = () => {
     if (!currentUser) {
-      navigate('/sign-in'); 
+      navigate('/sign-in');
     } else {
       navigate('/profile');
     }
   };
 
   return (
-    <header className='bg-blue-200 shadow-md'>
-      <div className='flex justify-between item-center max-w-6xl mx-auto p-3'>
-        <Link to='/'>
-          <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
-            <span className='text-pink-500'>Home</span>
-            <span className='text-blue-700'>Heaven</span>
+    <header className="bg-gradient-to-r from-blue-200 to-blue-400 shadow-md py-4">
+      <div className="container mx-auto flex justify-between items-center px-4">
+        <Link to="/" className="flex items-center space-x-2">
+          <h1 className="font-bold text-lg sm:text-2xl">
+            <span className="text-pink-500">Home</span>
+            <span className="text-blue-900">Heaven</span>
           </h1>
         </Link>
-        <form className='bg-slate-100 p-3 rounded-lg flex item-center'>
+        <form className="bg-white p-2 rounded-full flex items-center shadow-inner">
           <input
-            type='text'
-            placeholder='Search...'
-            className='bg-transparent focus:outline-none w-24 sm:w-64'
+            type="text"
+            placeholder="Search..."
+            className="bg-transparent focus:outline-none w-24 sm:w-64 px-2"
           />
-          <FaSearch className='text-slate-600' />
+          <button type="submit">
+            <FaSearch className="text-slate-600" />
+          </button>
         </form>
-        <ul className='flex gap-4'>
-          <Link to='/'>
-            <li className='hidden sm:inline text-slate-700 hover:underline'>
-              Home
-            </li>
+        <nav className="flex items-center space-x-4">
+          <Link to="/" className="hidden sm:inline text-white hover:text-blue-100">
+            Home
           </Link>
-          <Link to='/about'>
-            <li className='hidden sm:inline text-slate-700 hover:underline'>
-              About
-            </li>
+          <Link to="/about" className="hidden sm:inline text-white hover:text-blue-100">
+            About
           </Link>
-          <li
-            className='text-slate-700 hover:underline cursor-pointer'
+          <div
+            className="text-white hover:text-blue-100 cursor-pointer flex items-center"
             onClick={handleSignInClick}
           >
             {currentUser ? (
               <img
-                className='rounded-full h-7 w-7 object-cover'
+                className="rounded-full h-8 w-8 object-cover"
                 src={currentUser.avatar}
-                alt='profile'
+                alt="profile"
               />
             ) : (
               'Sign in'
             )}
-          </li>
-        </ul>
+          </div>
+        </nav>
       </div>
     </header>
   );
