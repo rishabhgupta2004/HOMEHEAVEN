@@ -12,9 +12,9 @@ HomeHeaven is a modern real estate platform built using the MERN stack. It offer
    **Training project (Batch-1)**
 
 - **Rishabh Gupta**
-  - Roll Number: 22015002782
+  - Email: [rishabh78000gupta@gmail.com](mailto:rishabh78000gupta@gmail.com)
 - **Deepanshi Shukla**
-  - Roll Number: 22015002566
+-Email:[deepanshishukla967@gmail.com]
 
 ## Features
 
@@ -60,9 +60,9 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rishabhgupta2004/HOMEHEAVEN.git
+   git clone https://github.com/rishabhgupta2004/homeheaven.git
    cd homeheaven
-   git clone https://github.com/Deepanshishukla24/HOMEHEAVEN.git
+   git clone https://github.com/Deepanshishukla24/homeheaven.git
    ```
 
 2. Install the dependencies for both the client and server:
@@ -122,4 +122,51 @@ We welcome contributions to HomeHeaven! Please follow these steps:
 
 
 ---
+
+
+# About Me
+
+
+## Introduction
+
+Hi, I'm Rishabh Gupta. I am a passionate software developer with a focus on creating beautiful and functional web applications. I have experience in various web technologies and enjoy working on innovative projects.
+
+## Skills
+
+- **Frontend Development:** React, Redux, HTML, CSS, JavaScript
+- **Backend Development:** Node.js, Express
+- **Database Management:** MongoDB
+- **Version Control:** Git, GitHub
+- **Others:** Firebase, MERN Stack
+
+## Projects
+- **Netflix-app**
+- **Drum-beat**
+ - **Landing page**
+ - **Shopify-App**
+ - **Weather**
+
+
+
+
+
+
+
+## Contact Me
+
+If you would like to get in touch, feel free to reach out through the following channels:
+
+- 
+- **LinkedIn:** [Rishabh gupta](https://www.linkedin.com/in/rishabh-gupta2004/)
+- **GitHub:** [Rishabhgupta](https://github.com/rishabhgupta2004)
+- **Portfolio:**[RISHABHGUPTA](https://rishabhgupta2004.github.io/portfolio/)
+
+Thank you for visiting my website. I look forward to connecting with you!
+
+---
+
+
+
+
+
 
