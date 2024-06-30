@@ -12,9 +12,11 @@ HomeHeaven is a modern real estate platform built using the MERN stack. It offer
    **Training project (Batch-1)**
 
 - **Rishabh Gupta**
-  - Email: [rishabh78000gupta@gmail.com](mailto:rishabh78000gupta@gmail.com)
+- Roll no-(22015002782)
+  
 - **Deepanshi Shukla**
--Email:[deepanshishukla967@gmail.com]
+- -Roll-no-(22015002566)
+
 
 ## Features
 
