@@ -160,7 +160,7 @@ Hi, I'm Rishabh Gupta. I am a passionate software developer with a focus on crea
 If you would like to get in touch, feel free to reach out through the following channels:
 
 - 
-- **LinkedIn:** [Rishabh gupta my linkedin](https://www.linkedin.com/in/rishabh-gupta2004/)
+- **LinkedIn:** [Rishabh gupta my linkedin prfile ](https://www.linkedin.com/in/rishabh-gupta2004/)
 - **GitHub:** [Rishabhgupta github link](https://github.com/rishabhgupta2004)
 - **Portfolio:**[RISHABHGUPTA  my portfolio](https://rishabhgupta2004.github.io/portfolio/)
 - 
