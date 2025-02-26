@@ -1,9 +1,67 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.6">
   <diagram name="Page-1" id="q0uh63WY61mBYeLiqCsb">
-    <mxGraphModel>
+    <mxGraphModel dx="1282" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="blr7A2yrIp51VY_48WEm-1" value="" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="blr7A2yrIp51VY_48WEm-2" value="&lt;span&gt;Frontend&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span&gt;(Reactjs)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="290" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="blr7A2yrIp51VY_48WEm-4" value="Backend (Node.js &amp;amp; Express.js)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="blr7A2yrIp51VY_48WEm-5" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600" y="45" width="150" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="blr7A2yrIp51VY_48WEm-8" value="&lt;font face=&quot;Times New Roman&quot;&gt;Database&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;(MongoDB)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="610" y="300" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="blr7A2yrIp51VY_48WEm-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=14;endSize=7.93;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="190" as="sourcePoint" />
+            <mxPoint x="300" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blr7A2yrIp51VY_48WEm-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=14;endSize=6.47;endWidth=20;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1" edge="1" parent="1" source="blr7A2yrIp51VY_48WEm-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="494" y="199.5" as="sourcePoint" />
+            <mxPoint x="604" y="199.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="524" y="199.5" />
+              <mxPoint x="614" y="199.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blr7A2yrIp51VY_48WEm-16" value="&lt;font face=&quot;Times New Roman&quot;&gt;User request&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;(API Calls&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="blr7A2yrIp51VY_48WEm-18" value="&lt;font face=&quot;Times New Roman&quot;&gt;Data Storage &amp;amp; Reterival&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="510" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="blr7A2yrIp51VY_48WEm-20" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=9;endSize=4.03;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="230" as="sourcePoint" />
+            <mxPoint x="500" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blr7A2yrIp51VY_48WEm-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=9;endSize=4.03;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="220" as="sourcePoint" />
+            <mxPoint x="200" y="219.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="blr7A2yrIp51VY_48WEm-24" value="&lt;font face=&quot;Times New Roman&quot;&gt;Response Data&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="530" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="blr7A2yrIp51VY_48WEm-25" value="&lt;font face=&quot;Times New Roman&quot;&gt;Response Data&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
